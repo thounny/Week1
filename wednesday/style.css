@@ -25,14 +25,17 @@ a:hover {
     background-color: aquamarine;
 }
 
-#anime {
-    width: 40%;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+    padding: 20px;
 }
 
-#punch {
-    width: 40%;
-}
-
-.gif {
-    width: 10%;
+.grid-item img {
+    width: 200px; /* Set a uniform size for all GIFs */
+    height: 200px;
+    object-fit: fit; /* Ensure the images cover the box without distortion */
 }
