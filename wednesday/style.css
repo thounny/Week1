@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    color: aquamarine;
+    color: whitesmoke;
 }
 
 a {
@@ -22,4 +22,17 @@ a {
 
 a:hover {
     text-decoration: overline;
+    background-color: aquamarine;
+}
+
+#anime {
+    width: 40%;
+}
+
+#punch {
+    width: 40%;
+}
+
+.gif {
+    width: 10%;
 }
