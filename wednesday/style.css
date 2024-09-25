@@ -10,3 +10,16 @@ body {
 p {
     color: aquamarine;
 }
+
+a {
+    text-decoration: none;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #009eb3;
+}
+
+a:hover {
+    text-decoration: overline;
+}
